@@ -1,0 +1,10 @@
+:root {
+    --primary: #06F5FF;
+    --secondary: #0fb123;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+}
