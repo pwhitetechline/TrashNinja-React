@@ -1,5 +1,5 @@
 .logo {
-    width: 50%;
+    width: 80%;
 }
 
 .navbar {
@@ -7,6 +7,7 @@
     justify-content: space-between;
     background: var(--primary);
     padding: 1.25em;
+    height: 75px;
 }
 
 .mobile-icon {
@@ -21,8 +22,17 @@
 }
 
 .nav-item {
-    height: 2em;
-    padding: .5em;
+    height: 30px;
+    padding: .5em 1.2em;
+}
+
+.nav-btn {
+    height: 30px;
+    padding: .5em 1.3em;
+    background: var(--secondary);
+    border-radius: .5em;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .nav-item:hover, .nav-item:focus{
@@ -32,6 +42,7 @@
 
 .nav-link {
     text-decoration: none;
+    font-weight: 600;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -44,6 +55,9 @@
 
 
 @media screen and (max-width: 768px){
+    .logo {
+        height: 80%;
+    }
     .mobile-icon {
         display: block;
         position: absolute;
